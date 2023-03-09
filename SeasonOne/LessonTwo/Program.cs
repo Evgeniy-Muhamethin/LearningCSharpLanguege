@@ -8,10 +8,22 @@ namespace LessonTwo
 		static void Main(string[] args)
 		{
 			LibraryClass libraryClass = new LibraryClass();
-			LessonLearned lessonLearned = new LessonLearned();
 			HomeWork homeWork = new HomeWork();
 
-			homeWork.HomeWorkTwo(158);
+			#region Провод пароля
+			//int count = 3;
+			//do
+			//{
+			//	string login = Console.ReadLine();
+			//	string password = Console.ReadLine();
+
+			//	homeWork.HomeWorkFourAdd(login, password);
+			//	count--;
+			//}
+			//while (count > 0);
+			#endregion
+
+			homeWork.HomeWorkSix();
 
 			libraryClass.Pause();
 
