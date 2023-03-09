@@ -8,25 +8,25 @@ namespace LessonOne
 {
 	internal class LessonIsLearned
 	{
-        public static void StopProgramm()
+        public void StopProgramm()
         {
             Console.ReadLine();
         }
 
-        public static void WorkWithMessages(string managerSymbol)
+        public void WorkWithMessages(string managerSymbol)
         {
             string symbol = managerSymbol;
             Console.WriteLine($"It is my message, about how{managerSymbol} i am learned programming languege");
             StopProgramm();
         }
 
-        public static int ComparisonTypes(float typeComparison)
+        public int ComparisonTypes(float typeComparison)
         {
             int result = (int)typeComparison;
             return result;
         }
 
-        public static void BooleanMethod(bool trueOrFalse)
+        public void BooleanMethod(bool trueOrFalse)
         {
             switch (trueOrFalse)
             {
@@ -40,7 +40,7 @@ namespace LessonOne
             Console.ReadLine();
         }
 
-        public static void FirstMethod()
+        public void FirstMethod()
         {
             string message = "My message";
 

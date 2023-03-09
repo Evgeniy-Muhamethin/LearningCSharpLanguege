@@ -1,0 +1,6 @@
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\MyLibrary\bin\Debug\MyLibrary.dll
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\MyLibrary\bin\Debug\MyLibrary.pdb
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\MyLibrary\obj\Debug\MyLibrary.csproj.AssemblyReference.cache
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\MyLibrary\obj\Debug\MyLibrary.csproj.CoreCompileInputs.cache
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\MyLibrary\obj\Debug\MyLibrary.dll
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\MyLibrary\obj\Debug\MyLibrary.pdb

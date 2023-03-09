@@ -6,3 +6,6 @@ D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\Lesson
 D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\LessonOne.csproj.CoreCompileInputs.cache
 D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\LessonOne.exe
 D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\LessonOne.pdb
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonOne\bin\Debug\MyLibrary.dll
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonOne\bin\Debug\MyLibrary.pdb
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\LessonOne.csproj.CopyComplete

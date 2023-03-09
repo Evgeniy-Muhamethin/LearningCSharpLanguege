@@ -1,4 +1,5 @@
 ﻿using System;
+using MyLibrary;
 
 namespace LessonOne
 {
@@ -7,9 +8,13 @@ namespace LessonOne
 		static void Main(string[] args)
 		{
 			HomeWork homeWork = new HomeWork();
-			float result = homeWork.IMT(76,186);
-            Console.WriteLine(result);
-			Console.ReadLine();
+			LessonIsLearned lessonIsLearned = new LessonIsLearned();
+			LibraryClass libraryClass = new LibraryClass();
+
+			homeWork.PrintName("Jill", "Valentine", 
+				"Racoon city", 35, 15, ConsoleColor.Green);
+
+			libraryClass.Pause();
         }
 	}
 }
