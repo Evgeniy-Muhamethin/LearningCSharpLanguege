@@ -36,7 +36,7 @@ namespace LessonTwo
 			//}
 			#endregion
 
-
+			lessonLearned.Loop(1,7);
 
 			libraryClass.Pause();
 

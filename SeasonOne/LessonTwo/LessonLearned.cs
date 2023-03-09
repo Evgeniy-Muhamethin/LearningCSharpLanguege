@@ -47,5 +47,43 @@ namespace LessonTwo
 					break;
 			}
 		}
+
+		int enterNumber;
+		public void Cikle()
+		{
+			int number = 4;
+			if(number > 0) 
+			{
+				int count = 0;
+				while (enterNumber != number) 
+				{
+					enterNumber = int.Parse(Console.ReadLine()); 
+					if (enterNumber > number)
+					{
+				        Console.WriteLine("Число больше загаданного числа");
+				    }
+					else if (enterNumber < number)
+					{
+				        Console.WriteLine("Число меньше загаданного числа");
+				    }
+					else
+					{
+				        Console.WriteLine("Вы угадали число");
+				    }
+					count++;
+				}
+			}
+			else if(number <= 0)
+			{
+                Console.WriteLine("Число должно быть больше нуля, и не равное ему");
+            } 
+		}
+
+		public void Loop(int a, int b)
+		{
+			Console.WriteLine("{0,4}", a);
+			if(a < b)
+				Loop(a + 1, b);
+        }
 	}
 }
