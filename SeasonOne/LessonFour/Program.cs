@@ -55,7 +55,10 @@ namespace LessonFour
                 Console.WriteLine("It is Done");
             }
 
-            #endregion
+			#endregion
+			string pathFile = "D:\\Git Repositorings\\LearningCSharpLanguege\\SeasonOne\\LessonThree\\TextFile1.txt";
+
+			lessonLearned.FileStream(pathFile);
 
             libraryClass.Pause();
 		}

@@ -9,3 +9,5 @@ DateTime - https://metanit.com/sharp/tutorial/19.1.php
 Thread - https://metanit.com/sharp/tutorial/11.1.php
 
 Random - https://learn.microsoft.com/ru-ru/dotnet/api/system.random?view=net-7.0#Instantiate
+
+Read and Write file is data  - https://metanit.com/sharp/tutorial/5.5.php

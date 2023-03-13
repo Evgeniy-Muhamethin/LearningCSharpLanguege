@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Runtime.InteropServices;
 
 namespace LessonFour
@@ -59,6 +60,21 @@ namespace LessonFour
                     Console.WriteLine("It is arry 3");
                 }
 			}
+		}
+
+		//Работа с файлами 
+		public void FileStream(string pathFile)
+		{
+			StreamReader streamReader = new StreamReader(pathFile);
+
+			int n = int.Parse(streamReader.ReadLine());
+
+			for (int i = 0; i < n; i++)
+			{
+				int a = int.Parse(streamReader.ReadLine());
+                Console.WriteLine(a);
+            }
+			streamReader.Close();
 		}
 	}
 }
