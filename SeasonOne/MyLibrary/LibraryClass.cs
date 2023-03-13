@@ -13,5 +13,5 @@ namespace MyLibrary
         {
             Console.ReadLine();
         }
-    }
+	}
 }
