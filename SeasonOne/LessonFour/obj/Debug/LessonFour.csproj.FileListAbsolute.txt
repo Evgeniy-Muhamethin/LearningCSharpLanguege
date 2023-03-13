@@ -1,0 +1,11 @@
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonFour\bin\Debug\LessonFour.exe.config
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonFour\bin\Debug\LessonFour.exe
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonFour\bin\Debug\LessonFour.pdb
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonFour\obj\Debug\LessonFour.csproj.AssemblyReference.cache
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonFour\obj\Debug\LessonFour.csproj.SuggestedBindingRedirects.cache
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonFour\obj\Debug\LessonFour.csproj.CoreCompileInputs.cache
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonFour\obj\Debug\LessonFour.exe
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonFour\obj\Debug\LessonFour.pdb
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonFour\bin\Debug\MyLibrary.dll
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonFour\bin\Debug\MyLibrary.pdb
+D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonFour\obj\Debug\LessonFour.csproj.CopyComplete
