@@ -9,6 +9,7 @@ namespace LessonThree
 		{
 			LessonLearned lessonLearned = new LessonLearned();
 			LibraryClass libraryClass = new LibraryClass();
+			HomeWorks homeWorks = new HomeWorks();
 
 			#region Работа со Структурами
 			//byte numberPluss = 3;
@@ -31,6 +32,13 @@ namespace LessonThree
 			//lessonLearned.ThreadingStruct();
 			//Console.WriteLine(dateTime1.DayOfWeek);
 			#endregion
+
+			string text;
+			for (; ; )
+			{
+				text = Console.ReadLine();
+				homeWorks.HomeJob(text);
+			}
 
 			libraryClass.Pause();
         }
