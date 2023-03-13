@@ -9,56 +9,27 @@ namespace LessonFour
 		{
 			LessonLearned lessonLearned = new LessonLearned();
 			LibraryClass libraryClass = new LibraryClass();
+			HomeWorks homeWorks = new HomeWorks();
 
-			int countArray = 10;
-			#region Работа с массивом
-			//int[] array = new int[countArray];
+			int[] array = new int[4];
+			string pathFile = "D:\\Git Repositorings\\" +
+				"LearningCSharpLanguege\\" +
+				"SeasonOne\\LessonThree\\TextFile1.txt";
 
-			//lessonLearned.RandomArrayLenth(array);
-
-			//lessonLearned.PrintArray(array);
-			#endregion
-
-			#region Линейный поиск
-			//int[] array = new int[countArray];
-			//lessonLearned.RandomArrayLenth(array);
-
-			//foreach (int element in array)
-			//{ 
-			//	if (element == 4)
-			//	{
-			//                 Console.WriteLine($"\"{element}\"");
-			//             }
-			//	else
-			//	{
-			//                 Console.WriteLine($"\n{element}");
-			//             }
-			//}
-			#endregion
-
-			#region Бинарный поиск
-
-			int[] array = new int[countArray];
-
-			lessonLearned.RandomArrayLenth(array);
-
-			Array.Sort(array);
-
-			Exception ex  = new Exception();
-
-			if (Array.BinarySearch(array, 5) < 0)
+			//обработка исключения на отсуудствие файла 
+			try
+			{
+				array = homeWorks.ReadFile(pathFile);
+			}
+			catch (Exception ex) 
 			{
                 Console.WriteLine(ex.Message);
             }
-			else
+
+			foreach (int element in array)
 			{
-                Console.WriteLine("It is Done");
+                Console.WriteLine($"Element array = {element}");
             }
-
-			#endregion
-			string pathFile = "D:\\Git Repositorings\\LearningCSharpLanguege\\SeasonOne\\LessonThree\\TextFile1.txt";
-
-			lessonLearned.FileStream(pathFile);
 
             libraryClass.Pause();
 		}
