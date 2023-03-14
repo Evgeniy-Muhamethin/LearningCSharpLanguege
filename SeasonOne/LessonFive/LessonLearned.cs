@@ -30,9 +30,19 @@ namespace LessonFive
 		}
 
 		//Работа с иассивом строк и строкой
-		public void StringArray(string[] arrayString)
+		public string[] StringArrayDevidet(string arrayString)
 		{
+			string[] text = arrayString.Split();
+			PrintArray(text);
 
+			return text;
+        }
+
+		public string StringArrayPluss(string[] arrayString)
+		{
+			string result = String.Join("/", arrayString);
+            Console.WriteLine(result);
+            return result;
 		}
 
 		//Печать массива

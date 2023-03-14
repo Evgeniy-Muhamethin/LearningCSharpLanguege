@@ -14,14 +14,26 @@ namespace LessonFive
 			LibraryClass libraryClass = new LibraryClass();
 			LessonLearned lessonLearned = new LessonLearned();
 
+			#region CHAR
 			char[] chars = new char[] { 'A', 'B', '4', 'c', 'D' };
 
 			#region string = new string(array);
-			string testString = new string(chars);
-            Console.WriteLine(testString);
+			//string testString = new string(chars);
+			//Console.WriteLine(testString);
 			#endregion
 
-			lessonLearned.CharArray(chars);
+			//lessonLearned.CharArray(chars);
+			#endregion
+
+			#region STRING
+
+			string[] strings = new string[] { "Алла найди себя",
+				"Алла не может найти себя" };
+
+			string[] result = lessonLearned.StringArrayDevidet(strings[0]);
+			lessonLearned.StringArrayPluss(result);
+
+			#endregion
 
 			libraryClass.Pause();
 		}
