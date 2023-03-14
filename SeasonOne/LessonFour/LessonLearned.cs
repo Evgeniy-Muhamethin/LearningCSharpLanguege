@@ -7,7 +7,6 @@ namespace LessonFour
 	internal class LessonLearned
 	{
 		//TODO работа с текстовыми файлами 
-		//TODO домашняя работа 
 
 		//Метод копирования массива
 		public void FirstMethod(int[] arrayFirst, int[] arrayLast, 

@@ -11,31 +11,35 @@ namespace LessonFive
 	{
 		static void Main(string[] args)
 		{
+            //TODO остановился на StringBuilder
+
 			LibraryClass libraryClass = new LibraryClass();
 			LessonLearned lessonLearned = new LessonLearned();
 
 			#region CHAR
 			char[] chars = new char[] { 'A', 'B', '4', 'c', 'D' };
 
-			#region string = new string(array);
-			//string testString = new string(chars);
-			//Console.WriteLine(testString);
-			#endregion
+            #region string = new string(array);
+            //string testString = new string(chars);
+            //Console.WriteLine(testString);
+            //lessonLearned.CharArray(chars);
+            #endregion
 
-			//lessonLearned.CharArray(chars);
-			#endregion
+            #endregion
 
-			#region STRING
+            #region STRING
 
-			string[] strings = new string[] { "Алла найди себя",
-				"Алла не может найти себя" };
+            string[] strings = new string[] { "Алла найди себя",
+            "Алла не может найти себя" };
 
-			string[] result = lessonLearned.StringArrayDevidet(strings[0]);
-			lessonLearned.StringArrayPluss(result);
+            string[] result = lessonLearned.StringArrayDevidet(strings[0]);
+            lessonLearned.StringArrayPluss(result);
 
-			#endregion
+            //Console.WriteLine(String.Compare(strings[1], strings[1]));
 
-			libraryClass.Pause();
+            #endregion
+
+            libraryClass.Pause();
 		}
 	}
 }
