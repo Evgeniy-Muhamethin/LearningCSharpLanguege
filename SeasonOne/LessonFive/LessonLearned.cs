@@ -9,6 +9,7 @@ namespace LessonFive
 {
 	internal class LessonLearned
 	{
+		delegate void PrintMessage<T>(T[] array);//Проба написания делегата 
 		//Работа с массивом символов
 		//Меняем массив символов на знаки.
 		public void CharArray(char[] arryChar)
@@ -32,8 +33,11 @@ namespace LessonFive
 		//Работа с иассивом строк и строкой
 		public string[] StringArrayDevidet(string arrayString)
 		{
+			PrintMessage<string> mes;
+			mes = PrintArray<string>;
+
 			string[] text = arrayString.Split();
-			PrintArray(text);
+			mes(text);
 
 			return text;
         }

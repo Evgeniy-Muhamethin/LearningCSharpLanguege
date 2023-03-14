@@ -9,6 +9,8 @@ namespace LessonFive
 {
 	internal class Program
 	{
+        delegate string DelegateFirst(string[] array);
+
 		static void Main(string[] args)
 		{
             //TODO остановился на StringBuilder
@@ -16,8 +18,11 @@ namespace LessonFive
 			LibraryClass libraryClass = new LibraryClass();
 			LessonLearned lessonLearned = new LessonLearned();
 
+            DelegateFirst delegateFirst;
+            delegateFirst = lessonLearned.StringArrayPluss;
+
 			#region CHAR
-			char[] chars = new char[] { 'A', 'B', '4', 'c', 'D' };
+			//char[] chars = new char[] { 'A', 'B', '4', 'c', 'D' };
 
             #region string = new string(array);
             //string testString = new string(chars);
@@ -33,7 +38,7 @@ namespace LessonFive
             "Алла не может найти себя" };
 
             string[] result = lessonLearned.StringArrayDevidet(strings[0]);
-            lessonLearned.StringArrayPluss(result);
+            delegateFirst(result);
 
             //Console.WriteLine(String.Compare(strings[1], strings[1]));
 
