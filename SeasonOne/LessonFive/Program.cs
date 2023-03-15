@@ -17,8 +17,10 @@ namespace LessonFive
 			LibraryClass libraryClass = new LibraryClass();
 			LessonLearned lessonLearned = new LessonLearned();
 			Data data = new Data();
+			HomeWorks homeWorks = new HomeWorks();
 
-            DelegateMethodStringBuilder delegateMethodStringBuilder;
+			#region Lesson
+			DelegateMethodStringBuilder delegateMethodStringBuilder;
             //Делегат↓↓↓
             delegateMethodStringBuilder =
                 lessonLearned.StringBuiledrMethod;
@@ -35,7 +37,7 @@ namespace LessonFive
 			//
 			//delegateMethodStringBuilder(text, enterText);
 
-			lessonLearned.StringBuiledrMethod(text, text.Length, 3);
+			//lessonLearned.StringBuiledrMethod(text, text.Length, 3);
 
 			#endregion
 
@@ -60,6 +62,14 @@ namespace LessonFive
 
 			//Console.WriteLine(String.Compare(strings[1], strings[1]));
 
+			#endregion
+			#endregion
+
+			#region Home Work
+			//string login = Console.ReadLine();
+			//homeWorks.Example(login);
+
+			homeWorks.Regulars();
 			#endregion
 
 			libraryClass.Pause();
