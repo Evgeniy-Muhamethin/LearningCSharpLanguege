@@ -12,6 +12,16 @@ Random - https://learn.microsoft.com/ru-ru/dotnet/api/system.random?view=net-7.0
 
 Read and Write file is data  - https://metanit.com/sharp/tutorial/5.5.php
 ```
+- `System.IO`
+    
+    - `FileStream`
+    
+    - `StreamWriter`
+    
+    - `StreamReader`
+    
+    - `BinaryWriter and BinaryReader`
+
 - `Важные классы для работы со строками: Char, String.`
 
     - Очень важные методы обработки — разделения строки на элементы `Split` и слияние массива строк в
