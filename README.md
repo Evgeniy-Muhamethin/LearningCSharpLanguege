@@ -14,11 +14,11 @@ Read and Write file is data  - https://metanit.com/sharp/tutorial/5.5.php
 ```
 - `System.IO`
     
-    - `FileStream`
+    - `FileStream` → open stream
     
-    - `StreamWriter`
+    - `StreamWriter` → file write
     
-    - `StreamReader`
+    - `StreamReader` → file read
     
     - `BinaryWriter and BinaryReader`
 
