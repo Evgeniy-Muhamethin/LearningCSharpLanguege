@@ -57,5 +57,28 @@ namespace LessonFive
                 Console.WriteLine(element);
             }
 		}
+
+		#region Sytring builder is learned
+		public void StringBuiledrMethod(string text, char addData)
+		{
+			StringBuilder sb = new StringBuilder(text);
+			sb.Append(addData, 1);
+            Console.WriteLine(sb);
+        }
+
+		public void StringBuiledrMethod(string text, int index, int countLine)
+		{
+			try
+			{
+				StringBuilder sb = new StringBuilder(text, index);
+				sb.Capacity = countLine;
+                Console.WriteLine(sb);
+            }
+			catch (ArgumentOutOfRangeException ex)
+			{
+                Console.WriteLine(ex.Message);
+            }
+		}
+		#endregion
 	}
 }
