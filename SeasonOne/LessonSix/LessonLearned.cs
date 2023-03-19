@@ -11,9 +11,10 @@ namespace LessonSix
 	{
 		public void Start()
 		{
-			string pathFile = "D:\\Git Repositorings\\LearningCSharpLanguege\\SeasonOne\\LessonOne\\TextFile1.txt";
+			//string pathFile = "D:\\Git Repositorings\\LearningCSharpLanguege\\SeasonOne\\LessonOne\\TextFile1.txt";
 
-			FileStreamMethod(pathFile, FileMode.Open, FileAccess.Read);
+			//FileStreamMethod(pathFile, FileMode.Open, FileAccess.Read);
+			BinaryWriteAndRead();
 		}
 
 		private void FileStreamMethod(string patFile, FileMode fileMode, FileAccess fileAccess)
@@ -34,14 +35,36 @@ namespace LessonSix
 			StreamReader sr = new StreamReader(new FileStream(patFile, fileMode, fileAccess));
 
             Console.WriteLine(sr.ReadToEnd());
+			sr.Close();
 
             #endregion
         }
 
-		//TODO Остановился на двоичных потоках↓
 		private void BinaryWriteAndRead()
 		{
+			FileStream fileStream = new FileStream("D:\\Git Repositorings\\" +
+				"LearningCSharpLanguege\\SeasonOne\\LessonOne\\data.bin", FileMode.Open);
+			BinaryReader br = new BinaryReader(fileStream);
 
+			long result = fileStream.Length;
+
+			int a;
+			for (int i = 0; i < result; i++)
+			{
+				a = br.ReadByte();
+                Console.WriteLine(a);
+			}
+
+			BinaryWriter binaryWriter = new BinaryWriter(fileStream);
+			char clearChar = char.Parse(Console.ReadLine());
+			if (clearChar == 'C')
+			{
+				binaryWriter.Flush();
+			}
+
+			binaryWriter.Close();
+			fileStream.Close();
+			br.Close();
 		}
 	}
 }
