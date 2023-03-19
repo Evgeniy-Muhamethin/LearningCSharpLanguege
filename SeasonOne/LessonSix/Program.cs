@@ -12,9 +12,14 @@ namespace LessonSix
 		static void Main(string[] args)
 		{
 			LessonLearned lessonLearned = new LessonLearned();
-			LibraryClass libraryClass = new LibraryClass();	
+			LibraryClass libraryClass = new LibraryClass();
 
-			
+			string pathFile = "D:\\Git Repositorings\\" +
+				"LearningCSharpLanguege\\SeasonOne\\LessonOne\\TextFile1.txt";
+
+			string catalog = @"D:\Programms\VisualStudio2022";
+
+			lessonLearned.FileSystemMethod(catalog);
 
 			libraryClass.Pause();
 		}

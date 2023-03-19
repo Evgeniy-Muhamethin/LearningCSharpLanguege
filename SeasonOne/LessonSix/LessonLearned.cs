@@ -69,7 +69,20 @@ namespace LessonSix
 
 		public void FileSystemMethod(string pathFile)
 		{
+			#region DirectoryInfo
+			//DirectoryInfo directoryInfo = new DirectoryInfo(pathFile);
+			//Console.WriteLine("*****" + directoryInfo.FullName + "******");
+			//Console.WriteLine("Name = " + directoryInfo.Name);
+			//Console.WriteLine("Parent = " + directoryInfo.Parent);
+			#endregion
 
+			#region FileInfo
+
+			FileInfo fileInfo = new FileInfo(pathFile);
+
+			fileInfo.Create();
+
+			#endregion
 		}
 	}
 }
