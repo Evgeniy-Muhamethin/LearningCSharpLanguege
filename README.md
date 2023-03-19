@@ -14,13 +14,13 @@ Read and Write file is data  - https://metanit.com/sharp/tutorial/5.5.php
 ```
 - `System.IO`
     
-    - `FileStream` → open stream
+    - `FileStream` → Открытие потока 
     
-    - `StreamWriter` → file write
+    - `StreamWriter` → Записть потока символьных данных
     
-    - `StreamReader` → file read
+    - `StreamReader` → Чтение потока символьных данных
     
-    - `BinaryWriter and BinaryReader`
+    - `BinaryWriter and BinaryReader` → Работа с двоичными файлами
 
 - `Важные классы для работы со строками: Char, String.`
 
