@@ -66,5 +66,10 @@ namespace LessonSix
 			fileStream.Close();
 			br.Close();
 		}
+
+		public void FileSystemMethod(string pathFile)
+		{
+
+		}
 	}
 }

@@ -14,7 +14,7 @@ namespace LessonSix
 			LessonLearned lessonLearned = new LessonLearned();
 			LibraryClass libraryClass = new LibraryClass();	
 
-			lessonLearned.Start();
+			
 
 			libraryClass.Pause();
 		}

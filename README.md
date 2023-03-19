@@ -26,3 +26,11 @@ Read and Write file is data  - https://metanit.com/sharp/tutorial/5.5.php
 
     - Очень важные методы обработки — разделения строки на элементы `Split` и слияние массива строк в
       единую строку `Join`.
+
+- Работа с файловой системой 
+
+	- `DirectoryInfo`
+
+	- `FileInfo` 
+
+	- `FileSystemInfo` 
