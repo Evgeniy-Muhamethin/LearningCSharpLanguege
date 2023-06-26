@@ -29,6 +29,8 @@ namespace LessonOne
 			LearningClasses learningClasses
 				= new LearningClasses();
 
+			learningClasses.ConsoleMethod();
+
 			#region LessonWork
 			/*
 			double result = lessonLearningTwo.PlussTwoNumbers(10, 15);
