@@ -9,3 +9,14 @@ D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\Lesson
 D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonOne\bin\Debug\MyLibrary.dll
 D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonOne\bin\Debug\MyLibrary.pdb
 D:\Git Repositorings\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\LessonOne.csproj.CopyComplete
+E:\Programming\GitRepositoring\LearningCSharpLanguege\SeasonOne\LessonOne\bin\Debug\LessonOne.exe.config
+E:\Programming\GitRepositoring\LearningCSharpLanguege\SeasonOne\LessonOne\bin\Debug\LessonOne.exe
+E:\Programming\GitRepositoring\LearningCSharpLanguege\SeasonOne\LessonOne\bin\Debug\LessonOne.pdb
+E:\Programming\GitRepositoring\LearningCSharpLanguege\SeasonOne\LessonOne\bin\Debug\MyLibrary.dll
+E:\Programming\GitRepositoring\LearningCSharpLanguege\SeasonOne\LessonOne\bin\Debug\MyLibrary.pdb
+E:\Programming\GitRepositoring\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\LessonOne.csproj.AssemblyReference.cache
+E:\Programming\GitRepositoring\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\LessonOne.csproj.SuggestedBindingRedirects.cache
+E:\Programming\GitRepositoring\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\LessonOne.csproj.CoreCompileInputs.cache
+E:\Programming\GitRepositoring\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\LessonOne.csproj.CopyComplete
+E:\Programming\GitRepositoring\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\LessonOne.exe
+E:\Programming\GitRepositoring\LearningCSharpLanguege\SeasonOne\LessonOne\obj\Debug\LessonOne.pdb
