@@ -23,8 +23,33 @@ namespace LessonOne
 			libraryClass.Pause();
 			*/
 			#endregion
-			Console.WriteLine("Hello world!!");
-			Console.ReadLine();
+			LessonLearningTwo lessonLearningTwo = 
+				new LessonLearningTwo();
+			LibraryClass libraryClass = new LibraryClass();
+			LearningClasses learningClasses
+				= new LearningClasses();
+
+			#region LessonWork
+			/*
+			double result = lessonLearningTwo.PlussTwoNumbers(10, 15);
+			string textResult = $"{result}";
+			libraryClass.Print(textResult);
+			lessonLearningTwo.MethotFormatirovaniyData(result);
+			lessonLearningTwo.MethotConsoleWork();
+			
+			Console.WriteLine("Enter number one");
+			int _enterNumberOne = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Enter number two");
+			int _enterNumberTwo = Convert.ToInt32(Console.ReadLine());
+
+			double result = lessonLearningTwo.PlussTwoNumbers(_enterNumberOne,
+				_enterNumberTwo, "It is TEST \t");
+
+			libraryClass.Print($"Result = {result}");
+			*/
+			#endregion
+
+			libraryClass.Pause();
 		}
 	}
 }
